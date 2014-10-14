@@ -7,7 +7,7 @@ This repository contains **Dockerfile** for the  for the [filter-format-server](
 
 ### Dependencies
 
-* [node:0.10](https://index.docker.io/u/_/node)
+* [node:0.10](https://registry.hub.docker.com/u/library/node/)
 
 and installs
 
@@ -17,9 +17,9 @@ and installs
 
 ### Installation
 
-1. Install [Docker](https://www.docker.io/).
+1. Install [Docker](https://docs.docker.com/#installation-guides).
 
-2. Download [trusted build](https://index.docker.io/u/aaukt/owncloud-ffs/) from public [Docker Registry](https://index.docker.io/): `docker pull aaukt/owncloud-ffs`
+2. Download [automated build](https://registry.hub.docker.com/u/aaukt/owncloud-ffs/) from public [Docker Registry](https://registry.hub.docker.com/): `docker pull aaukt/owncloud-ffs`
 
    (alternatively, you can build an image from Dockerfile: `docker build -t="aaukt/owncloud-ffs" github.com/owncloud/docker-owncloud-ffs`)
 
