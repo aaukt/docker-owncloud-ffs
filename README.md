@@ -21,7 +21,7 @@ and installs
 
 2. Download [automated build](https://registry.hub.docker.com/u/aaukt/owncloud-ffs/) from public [Docker Registry](https://registry.hub.docker.com/): `docker pull aaukt/owncloud-ffs`
 
-   (alternatively, you can build an image from Dockerfile: `docker build -t="aaukt/owncloud-ffs" github.com/owncloud/docker-owncloud-ffs`)
+   (alternatively, you can build an image from Dockerfile: `docker build -t="aaukt/owncloud-ffs" github.com/aaukt/docker-owncloud-ffs`)
 
 
 ### Usage
