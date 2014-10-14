@@ -27,4 +27,4 @@ ADD supervisord.conf /etc/supervisord.conf
 
 EXPOSE 16080
 
-CMD /usr/bin/supervisord -c /etc/supervisord.conf -n
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisord.conf", "-n"]
